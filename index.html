@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Small Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/small-business.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	
+    <!-- Page Content -->
+	  <div class="container">
+      <!-- /.row -->
+      <!-- Call to Action Well -->
+      <div class="card text-white bg-secondary my-4">
+	  
+        <div class="card-body row">
+			<h2>Area Regulations</h2>
+		<div class="col-xs-4">
+		<ul>
+			<li>Red Drum
+		<ul>
+			<li>blah blah</li>
+		</ul>
+		</li>
+			<li>Speckled Trout
+		<ul>
+			<li>blah blah</li>
+		</ul>
+		</li>
+		</ul>
+		</div>
+		<div class="col-xs-4">
+		</div>
+		<div class="col-xs-4">
+		<ul>
+			<li>Flounder
+		<ul>
+			<li>blah blah</li>
+		</ul>
+		</li>
+			<li>Snook</li>
+		<ul>
+			<li>blah blah</li>
+		</ul>
+		</ul>
+        </div>
+      </div>
+	  </div>
+
+      <!-- Content Row -->
+        <div class="col-xs-12 xs-12">
+          <div class="card h-100">
+            <div class="card-body">
+			<div class="row">
+              <h2 class="card-title">&nbspPort Isabel&nbsp&nbsp</h2>
+			  <button type="button" class="btn btn-primary" >View Popular Fishing Spots in Port Isabel</button>
+			  <!--<div id="wuImage">
+			  <img src="includes/wundergroundLogo_4c_horz.jpg">
+			  </div>-->
+			  </div>
+			  <table class="table table-responsive">
+			  <thead>
+			    <tr>
+		          <th>Updated</th>
+			      <th>Temp(F)</th>
+				  <th>Feels Like(F)</th>
+				  <th>Visibility(mi)</th>
+			      <th>Pressure(in.)</th>
+				  <th>Humidity(rel.)</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr>
+                  <td id="dateIsabel"></td>
+                  <td id="tempIsabel"></td>
+				  <td id="feelsLikeIsabel"></td>
+				  <td id="visibilityIsabel"></td>
+                  <td id="pressureIsabel"></td>
+				  <td id="humidityIsabel"></td>
+                </tr>
+			  </table>
+			  <div class="container">
+			    <div class="row">
+			      <div class="col-xs-4">
+			        <p id="windStringIsabel"><strong>Wind Condition: </strong><span></span></p>
+			        <p id="weatherIsabel"><strong>Current Condition: </strong><span></span></p>
+			      </div>
+			      <div class="col-xs-4">
+			        <p id="fishingReport"><strong>Fishing Report: </strong><span></span></p>
+			      </div>
+			    </div>
+			  </div>
+			  <table class="table">
+			  <thead>
+			    <tr>
+			      <th>Condition</th>
+				  <th>Time & Date</th>
+			    </tr>
+			  </thead>
+			  <tbody id="appendIsabel">
+			  </table>
+			  <hr>
+			  <div class="container">
+			  <table class="table">
+			  <thead>
+			  <h2>User Submitted Fishing Reports for PI Area</h2>
+			    <tr>
+			      <th>Date</th>
+				  <th>Report</th>
+			    </tr>
+			  </thead>
+			  <tbody id="">
+			  </table>
+			  </div>
+            </div>
+            <div class="card-footer">
+			<button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#reportModal">Post a Report</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- /.row -->
+
+
+
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+	
+	<!-- modal --><!-- modal -->
+	<!-- modal--><!-- modal -->
+	<!-- modal--><!-- modal -->
+	
+	<!-- Modal -->
+	<div class="modal fade" id="reportModal" tabindex="-1" role="dialog" aria-labelledby="reportModal" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" >Submit Fishing Report</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<form>
+			  <div class="form-group">
+				<label for="">Fishing Report</label>
+			    <textarea class="form-control" id="reportTextArea" rows="3"></textarea>
+			  </div>
+			</form>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary" id="submitReport">Submit Report</button>
+			<button type="button" class="btn btn-primary" id="addImages">Add Images</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	
+	
+	<!-- modal --><!-- modal -->
+	<!-- modal--><!-- modal -->
+	<!-- modal--><!-- modal -->
+	
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
+		<!-- JS File -->
+	<script type="text/javascript" src="js/homePage.js"></script>
+	<script type="text/javascript" src="js/scrapetpwd.js"></script>
+  </body>
+</html>

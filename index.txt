@@ -1,0 +1,249 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"TX",
+		"city":"Port Isabel",
+		"tz_short":"CST",
+		"tz_long":"America/Chicago",
+		"lat":"26.06999969",
+		"lon":"-97.20999908",
+		"zip":"78578",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:78578.1.99999",
+		"requesturl":"US/TX/Port_Isabel.html",
+		"wuiurl":"https://www.wunderground.com/US/TX/Port_Isabel.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"", "state":"", "country":"", "icao":"", "lat":"", "lon":"" }
+		,{ "city":"Port Isabel", "state":"TX", "country":"US", "icao":"KPIL", "lat":"26.17000008", "lon":"-97.34999847" }
+		,{ "city":"Brownsville", "state":"TX", "country":"US", "icao":"KBRO", "lat":"25.90999985", "lon":"-97.43000031" }
+		,{ "city":"Harlingen", "state":"TX", "country":"US", "icao":"KHRL", "lat":"26.22999954", "lon":"-97.65000153" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"SPI Fire Station",
+		"city":"South Padre Island",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXSOUTH61",
+		"lat":26.110668,
+		"lon":-97.169052,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"",
+		"city":"Port Isabel",
+		"state":"TX",
+		"country":"US",
+		"id":"MD1996",
+		"lat":26.093800,
+		"lon":-97.286003,
+		"distance_km":8,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Laguna Vista",
+		"city":"Port Isabel",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXPORTI3",
+		"lat":26.104519,
+		"lon":-97.292847,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Steve and Debbie\u0027s at SPIGC",
+		"city":"Laguna Vista",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXLAGUN3",
+		"lat":26.108677,
+		"lon":-97.309036,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"South Padre Island Golf Course",
+		"city":"Port Isabel",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXPORTI4",
+		"lat":26.114496,
+		"lon":-97.311272,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"",
+		"city":"Los Fresnos",
+		"state":"TX",
+		"country":"US",
+		"id":"MAU142",
+		"lat":26.093800,
+		"lon":-97.429199,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"RGV",
+		"city":"Brownsville",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXBROWN19",
+		"lat":25.990578,
+		"lon":-97.474152,
+		"distance_km":27,
+		"distance_mi":16
+		},
+		{
+		"neighborhood":"Los Cuates WS",
+		"city":"Los Fresnos",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXLOSFR3",
+		"lat":26.084488,
+		"lon":-97.495514,
+		"distance_km":28,
+		"distance_mi":17
+		},
+		{
+		"neighborhood":"Los Fresnos NW",
+		"city":"Los Fresnos",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXSANBE2",
+		"lat":26.119394,
+		"lon":-97.492508,
+		"distance_km":28,
+		"distance_mi":17
+		},
+		{
+		"neighborhood":"West Brownsville",
+		"city":"Brownsville",
+		"state":"TX",
+		"country":"US",
+		"id":"KTXBROWN22",
+		"lat":25.922424,
+		"lon":-97.519218,
+		"distance_km":34,
+		"distance_mi":20
+		},
+		{
+		"neighborhood":"Heroica Matamoros, Tamaulipas",
+		"city":"Heroica Matamoros",
+		"state":"",
+		"country":"MX",
+		"id":"IHEROICA5",
+		"lat":25.830420,
+		"lon":-97.453468,
+		"distance_km":36,
+		"distance_mi":21
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Port Isabel, TX",
+		"city":"Port Isabel",
+		"state":"TX",
+		"state_name":"Texas",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"78578",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"26.06999969",
+		"longitude":"-97.20999908",
+		"elevation":"2.1"
+		},
+		"observation_location": {
+		"full":"SPI Fire Station, South Padre Island, Texas",
+		"city":"SPI Fire Station, South Padre Island",
+		"state":"Texas",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"26.110668",
+		"longitude":"-97.169052",
+		"elevation":"32 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KTXSOUTH61",
+		"observation_time":"Last Updated on March 10, 11:42 PM CST",
+		"observation_time_rfc822":"Sat, 10 Mar 2018 23:42:59 -0600",
+		"observation_epoch":"1520746979",
+		"local_time_rfc822":"Sat, 10 Mar 2018 23:54:13 -0600",
+		"local_epoch":"1520747653",
+		"local_tz_short":"CST",
+		"local_tz_long":"America/Chicago",
+		"local_tz_offset":"-0600",
+		"weather":"Overcast",
+		"temperature_string":"71.6 F (22.0 C)",
+		"temp_f":71.6,
+		"temp_c":22.0,
+		"relative_humidity":"96%",
+		"wind_string":"From the SSW at 13.0 MPH Gusting to 17.0 MPH",
+		"wind_dir":"SSW",
+		"wind_degrees":194,
+		"wind_mph":13.0,
+		"wind_gust_mph":"17.0",
+		"wind_kph":20.9,
+		"wind_gust_kph":"27.4",
+		"pressure_mb":"1009",
+		"pressure_in":"29.81",
+		"pressure_trend":"0",
+		"dewpoint_string":"70 F (21 C)",
+		"dewpoint_f":70,
+		"dewpoint_c":21,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"71.6 F (22.0 C)",
+		"feelslike_f":"71.6",
+		"feelslike_c":"22.0",
+		"visibility_mi":"5.0",
+		"visibility_km":"8.0",
+		"solarradiation":"0",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/TX/Port_Isabel.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KTXSOUTH61",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=26.110668,-97.169052",
+		"nowcast":""
+	}
+}
